@@ -297,8 +297,14 @@ function print_rekap(){
 // ----------------------------------------FUNCTION URL, KEEP IT BELOW!!------------------------------------------------------------------
 function url()
 {
-	return $url = "//localhost/absenKaryawan-master/assets/";
+	// Mendeteksi URL lengkap di browser
+	$protocol = isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http";
+	$host     = $_SERVER['HTTP_HOST']; // Mendapatkan host (misalnya absensik.co)
+	$uri      = $_SERVER['REQUEST_URI']; // Mendapatkan URI (misalnya /karyawan/login.php)
 
+	// Gabungkan menjadi URL lengkap
+	$currentUrl = $protocol . "://" . $host;
+	return 	 $currentUrl . '/assets/';
 }
 
  ?>

@@ -61,9 +61,6 @@
             </div>
             <div class="menu-sidebar2__content js-scrollbar1">
                 <div class="account2">
-                    <div class="image img-cir img-120">
-                        <img src="img/<?=$adm['foto'];?>" alt="John Doe" />
-                    </div>
                     <h4 class="name" id="nama"><?=$adm['nama'];?></h4>
                     <a href="logout.php"><button class="btn btn-danger">Sign out</button></a>
                 </div>
