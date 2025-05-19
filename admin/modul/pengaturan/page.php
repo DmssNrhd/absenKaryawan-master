@@ -8,12 +8,9 @@ if (isset($_POST['ubah'])) {
 if (isset($_POST['ubah_jam_keluar'])) {
 	ubah_jam_keluar();
 }
-
-
 ?>
 <div class="main-content">
 	<div class="section__content section__content--p30">
-
 	</div>
 	<div class="content-wrapper">
 		<div class="content-header">
@@ -29,8 +26,6 @@ if (isset($_POST['ubah_jam_keluar'])) {
 				</div><!-- /.col -->
 			</div>
 		</div>
-
-
 		<!-- Main Content -->
 		<section class="content">
 			<div class="container-fluid">

@@ -4,7 +4,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="copyright">
-                                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script> Kelompok H6 IUM</a>.</p>
+                                <p>Copyright &copy; <script>document.write(new Date().getFullYear());</script></p>
                             </div>
                         </div>
                     </div>
