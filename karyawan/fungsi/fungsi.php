@@ -1,7 +1,5 @@
 <?php
-
-$koneksi = mysqli_connect('localhost', 'root', '', 'absenkaryawan');
-
+require_once '../koneksi.php';
 // --------------------------------------------ADMIN SECTION-----------------------------------------------------------------------------
 function panggil_karyawan()
 {

@@ -63,8 +63,6 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-sm-12"><br>
-					<!-- Button trigger modal -->
-
 
 
 
@@ -72,7 +70,7 @@
 
 <?php 
 	
-	$koneksi = mysqli_connect('localhost','root','','absenkaryawan');
+	require_once '../koneksi.php';
 	if (isset($_POST['cari'])) {
 		$bulan = $_POST['bulan'];
 		$tahun = $_POST['tahun'];

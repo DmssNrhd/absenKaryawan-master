@@ -31,7 +31,7 @@ class login_web
 	}
 }
 
+require_once '../koneksi.php';
 $pro = new login_web();
-$pro->koneksi = mysqli_connect('localhost', 'root', '', 'absenKaryawan');
-
- ?>
+$pro->koneksi = $koneksi;
+?>

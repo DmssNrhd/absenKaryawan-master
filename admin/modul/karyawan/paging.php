@@ -1,5 +1,5 @@
 <?php 
-$koneksi = mysqli_connect('localhost', 'root', '', 'absenkaryawan');
+require_once '../koneksi.php';
 
     $batas = 5;
 $halaman = isset($_GET['halaman']) ? (int)$_GET['halaman'] : 1;
