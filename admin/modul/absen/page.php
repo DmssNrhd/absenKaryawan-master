@@ -24,7 +24,7 @@
           </div><!-- /.col -->
             <div class="col-sm-6">
             <a href="?m=absen&s=rekap" class="btn btn-primary ml-3">Rekap Absen</a>
-          </div><!-- /.col -->
+          </div>
         </div>
 	</div>
 
