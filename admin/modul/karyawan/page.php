@@ -191,7 +191,15 @@ $next = $halaman + 1;
                                                 <td><?php echo $row['tanggal_lahir']; ?></td>
                                                 <td><?php echo $row['alamat']; ?></td>
                                                 <td><?php echo $row['kontak']; ?></td>
-                                                <td><img src="../assets/images/<?php echo $row['foto']; ?>" width="50"></td>
+                                                <td>
+                                                    <?php 
+                                                    if ($row['foto'] != '') {
+                                                        echo '<img src="img/karyawan/'.$row['foto'].'" width="50">';
+                                                    } else {
+                                                        echo '<img src="img/user_logo.png" width="50">';
+                                                    }
+                                                    ?>
+                                                    </td>
                                                 <td>
                                                     <button type="button" class="btn btn-warning btn-sm" data-toggle="modal" data-target="#editModal<?php echo $row['id']; ?>">
                                                         Edit
